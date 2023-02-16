@@ -1,0 +1,154 @@
+body {
+background-color: #EAE8E7;
+
+}
+
+[class*=__container] {
+   max-width: 1440px;
+   margin: 0px auto;
+   padding: 0px 30px;
+ }
+ 
+
+ .header {
+   height: 100px;
+   
+}
+.header__container {
+}
+.header__body {
+}
+.header__items {
+   display: flex;
+   gap: 20px;
+   justify-content: end;
+   margin: 0px 130px 0px 0px;
+   font-family: Anaheim;
+   font-weight: 400;
+   font-size: 18px;
+   line-height:155%;
+   padding: 38px 0px 38px 0px;
+
+
+   align-items: center;
+}
+.header__items a {
+   color: #1A273E;
+   text-decoration: none;
+
+  
+}
+
+.header__link {
+   
+
+}
+
+
+.main {
+}
+.main__container {
+   display: flex;
+}
+.main__image img {
+   min-height: 833px;
+   min-width: 555px;
+}
+.image {
+}
+.image__value {
+}
+.main__content {
+}
+.gritings {
+   margin: 100px 0px 0px 60px;
+}
+.gritings__title {
+   margin: 0px 0px 0px 0px;
+   font-family: "Anaheim";
+   font-weight: 200;
+   font-size: 50px;
+   line-height: 128%;
+   color: #1A273E;
+
+}
+.gritings__title p{ 
+   margin: 0px;
+}
+
+.gritings__title 
+
+.gritings__subtitle {
+   font-family: Carrois Gothic;
+   font-weight: 400;
+   font-size: 68px;
+   margin: 15px 0px 0px 0px;
+   max-width: 555px;
+   height: 162px;
+   
+}
+.gritings__subtitle  {
+   font-family: Carrois Gothic;
+   font-weight: 400;
+   font-size: 136px;
+   margin: 0px 135px 0px 0px;
+   line-height: 128%;
+
+
+}
+.gritings__subtitle p {
+   margin: 0 auto;
+   width: 555px;
+}
+.gritings__info {
+   font-family: Anaheim;
+   font-family: 400;
+   font-size: 50px;
+   line-height: 128%;
+   
+
+}
+.gritings__info  p {
+   height: 64px;
+   margin: 0px 0px 83px 0px;
+
+}
+.gritings__button {
+}
+.button {
+   font-family: Anaheim;
+   font-size: 28px;
+   line-height: 128%;
+   color: #1A273E;
+   text-decoration: none;
+   padding: 17px 98px;
+   background-color: #EAE8E7;
+   box-shadow: 4px 4px 7px 2px #D6D4D3, -4px -4px 7px 2px #F4F2F1;
+border-radius: 20px;
+margin: 0px 0px 0px 230px;
+
+}
+
+.button a {
+
+
+}
+
+.image__value img {
+   box-shadow: 4px 4px 7px 2px #D6D4D3, -4px -4px 7px 2px #F4F2F1;
+}
+
+.main__social {
+   margin: 320px 26px;
+
+}
+.social {
+}
+.social__body {
+}
+.social__telegram {
+   
+   margin: 0px 66px 64px 0px;
+}
+.social__vk {
+}
