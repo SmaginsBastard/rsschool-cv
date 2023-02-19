@@ -35,12 +35,30 @@ background-color: #EAE8E7;
 .header__items a {
    color: #1A273E;
    text-decoration: none;
+   
 
   
 }
 
-.header__link {
+
+@keyframes headermove{
+   0% {
+      top:0;
+   }
+  
    
+   100%{top:5px;}
+}
+
+.header__link:hover  {
+   animation-name:headermove;
+   animation-duration: 0.3s;
+   position: relative;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+
+
+
 
 }
 
@@ -51,8 +69,8 @@ background-color: #EAE8E7;
    display: flex;
 }
 .main__image img {
-   min-height: 833px;
-   min-width: 555px;
+   max-height: 833px;
+   max-width: 555px;
 }
 .image {
 }
@@ -114,6 +132,8 @@ background-color: #EAE8E7;
 
 }
 .gritings__button {
+
+
 }
 .button {
    font-family: Anaheim;
@@ -126,12 +146,19 @@ background-color: #EAE8E7;
    box-shadow: 4px 4px 7px 2px #D6D4D3, -4px -4px 7px 2px #F4F2F1;
 border-radius: 20px;
 margin: 0px 0px 0px 230px;
+transition: all 0.3s ease-out;
 
 }
 
 .button a {
 
 
+}
+
+.button:hover { 
+   background-color: #1A273E;
+   transition: all 0.43s ease-out;
+   color: white;
 }
 
 .image__value img {
@@ -152,8 +179,48 @@ margin: 0px 0px 0px 230px;
 }
 .social__vk {
 }
+.telegram :hover {
+   background-color: #1A273E;
+   transition: all 0.2s ease;
 
 
+}
+.social__telegram.active,.social__vk.active {
+opacity: 0.3;
+transform: scale(0.9);
+transition: all 0.2s ease;
+}
+
+.telegram  {
+   background-image: url(./Source/CV/social/Telegram.svg);
+   background-repeat: no-repeat;
+   width: 46.24px;
+   height: 38.8px;
+   display: block;
+   transition: all 0.7s ease-out;
+}
+
+.vk {
+   background-image: url(./Source/CV/social/VK.svg);
+   background-repeat: no-repeat;
+   width: 48.75px;
+   height: 28.36px;
+   display: block;
+   transition: all 0.7s ease-out;
+
+}
+
+.telegram:hover {
+   background-image: url(./Source/CV/social/darkteleg.svg);
+   transition: all 1s ease-out;
+}
+
+
+.vk:hover{
+   background-image: url(./Source/CV/social/Darkvk.svg);
+   transition: all 0.2s ease-out;
+
+}
 /*==============ABOUTME=============================*/
 
 
@@ -496,11 +563,23 @@ justify-content: center;
    width: 95px;
    height: 24px;
    font-family: Anaheim;
-   font-size: 20px;
+   font-size: 26px;
    line-height: 155%;
    color: #1A273E;
    text-decoration: none;
    margin: 85px 0px 0px 555px;
+   animation-duration: 0.3s;
+
+}
+
+.last__button:hover  {
+   animation-name:headermove;
+   animation-duration: 0.3s;
+   position: relative;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+   
+   
 }
 .english{
    padding: 58px 0px 100px 0px;
