@@ -211,7 +211,7 @@ transition: all 0.2s ease;
 }
 
 .telegram:hover {
-   background-image: url(./Source/CV/social/darkteleg.svg);
+   background-image: url(/Source/CV/social/darkteleg.svg);
    transition: all 1s ease-out;
 }
 
@@ -242,7 +242,7 @@ transition: all 0.2s ease;
 .aboutme__left {
 }
 .left {
-   margin: 0px 110px 0px 0px;
+   margin: 0px 115px 0px 0px;
 }
 .left__body {
    width: 675px;
